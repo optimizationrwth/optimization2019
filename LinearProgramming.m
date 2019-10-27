@@ -55,6 +55,9 @@
 %   P1, I1, HE1, C, P2, I2, LE2, MPS, LPS, Fuel, PP, EP, HPS, BF1, HE2,
 %   LE1, BF2, Power
 
+clc;
+clear;
+
 A=[-1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
     1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
     0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
