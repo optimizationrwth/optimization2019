@@ -73,3 +73,45 @@ Model hs44
   End Equations
 End Model
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+the solution for the 1st example of the bonus exercise
+
+
+
+Model hs44
+  Variables
+    x[1] = 5, >=0, <=10 
+    x[2] = 1, >=0, <=10
+    x[3] = 1, >=0, <=10  
+End Variables
+
+  Equations
+    x[1]*x[2]+x[3] = 8
+    x[3]*x[2] = 15
+
+    minimize x[1] + x[2] + x[3]*x[3]
+  End Equations
+End Model
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+the solution for the 2nd example of the bonus exercise
+
+
+Model hs44
+  Variables
+    x[1] = 5, >=0, <=10 
+    x[2] = 1, >=0, <=4
+    x[3] = 1, >=0, <=10  
+    x[4] = 1, >=0, <=10  
+End Variables
+
+  Equations
+    x[1]*x[2]+x[2]*x[3] = 2
+    x[1]*x[2]+x[4] = 3
+    x[1]+x[2]*x[3] = 5
+
+    minimize x[1] + x[2] + x[3]*x[3]+x[4]*x[4]
+  End Equations
+End Mode
+
+
